@@ -20,7 +20,8 @@
    Initialize and seed the database with default data using:
 
     ```bash
-    payload: { "wa_id": "6287812538105", "template_id": "66949932db020a0e202048ae", "components": [] } {"messaging_product":"whatsapp","contacts":[{"input":"6287812538105","wa_id":"6287812538105"}],"messages":[{"id":"wamid.HBgNNjI4NzgxMjUzODEwNRUCABEYEjBFQzkwNTA0MDY4MzI4MTYxQgA=","message_status":"accepted"}]}
+    payload: { "wa_id": "6287812538105", "template_id": "66949932db020a0e202048ae", "components": [] }
+    {"messaging_product":"whatsapp","contacts":[{"input":"6287812538105","wa_id":"6287812538105"}],"messages":[{"id":"wamid.HBgNNjI4NzgxMjUzODEwNRUCABEYEjBFQzkwNTA0MDY4MzI4MTYxQgA=","message_status":"accepted"}]}
     ```
 
-    Now, your project is ready for use. You can access the admin panel via the provided route. If you've run the seed command, log in with the provided credentials. Customize and expand your application as needed.
+    Now, your project is ready for use. You can access the admin panel via the provided route. If you've run the seed command, log in with the provided credentials. Customize and expand your application as needed. Check code in Program.cs (it's just sample code).
