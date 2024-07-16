@@ -1,0 +1,15 @@
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/bin/Debug/net8.0/HttpPostExample
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/bin/Debug/net8.0/HttpPostExample.deps.json
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/bin/Debug/net8.0/HttpPostExample.runtimeconfig.json
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/bin/Debug/net8.0/HttpPostExample.dll
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/bin/Debug/net8.0/HttpPostExample.pdb
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.AssemblyInfoInputs.cache
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.AssemblyInfo.cs
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.csproj.CoreCompileInputs.cache
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.sourcelink.json
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.dll
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/refint/HttpPostExample.dll
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.pdb
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/HttpPostExample.genruntimeconfig.cache
+/Users/admin/Documents/app/product/project/dotnet-project/HttpPostExample/obj/Debug/net8.0/ref/HttpPostExample.dll
