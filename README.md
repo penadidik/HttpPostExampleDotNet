@@ -10,7 +10,7 @@
 
 3. **Run HTTP Post:**
 
-    Run the following command to install required dependencies using Composer:
+    Run the following command to install required dependencies using dotnet:
 
     ```bash
     dotnet run
