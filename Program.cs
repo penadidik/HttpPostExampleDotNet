@@ -15,16 +15,16 @@ class Program
     {
         var PAYLOAD = 
         @"{
-            ""wa_id"": ""6287812538105"",
-            ""template_id"": ""66949932db020a0e202048ae"",
+            ""wa_id"": """",
+            ""template_id"": """",
             ""components"": []
         
-        }";
+        }"; //template id put from waba
 
         Console.WriteLine($"payload: {PAYLOAD}");
 
         var content = new StringContent(PAYLOAD, Encoding.UTF8, "application/json");
-        client.DefaultRequestHeaders.Add("X-API-KEY", "1t65d576f2af2be5.64427625ToYdd03"); // Add a custom header
+        client.DefaultRequestHeaders.Add("X-API-KEY", ""); // Add a custom header apikey
 
         try
         {
