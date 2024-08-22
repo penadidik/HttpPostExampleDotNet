@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HttpPostExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e893608e20ef60c1985c6344ce2cc70f8f47b65")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+946750cff9d5d1abd3f9877ec02deea69eb6f078")]
 [assembly: System.Reflection.AssemblyProductAttribute("HttpPostExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HttpPostExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
