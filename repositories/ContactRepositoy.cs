@@ -7,7 +7,7 @@ class ContacRepository
     private static string connectionString = AppConfig.GetAppSetting("Database:ConnectionString");
     private static string tableName = "Contact";
 
-    public static void Setup() {
+    public static void Initialize() {
 
         // Example usage: Check if the "Contact" table exists
         bool tableExists = BaseRepository.CheckIfTableExists(connectionString, tableName);

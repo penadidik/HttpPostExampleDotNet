@@ -9,7 +9,7 @@ class Program
         // Initialize configuration
         AppConfig.Initialize("appsettings.json");
 
-        var collectContact = ContactController.GetListJson();
+        var collectContact = ContactController.GetListFromDB();
         var templates = TemplateController.SetTemplateTesting(collectContact);
 
         // send message with interval

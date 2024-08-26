@@ -5,26 +5,10 @@ using System.Text.Json.Nodes;
 class ContactController
 {
 
-    public static List<ContactEntity> GetListDummy() {
-        
-
+    public static List<ContactEntity> GetListFromDB() {
         var items = new List<ContactEntity>();
 
-        for (int i = 5; i < 10; i++)
-        {
-            var data = new ContactEntity();
-            data.Name = "Didik";
-            data.Number = "628781253810" + i;
-            items.Add(data);
-        }   
-
-        return items;
-    }
-
-    public static List<ContactEntity> GetListJson() {
-        var items = new List<ContactEntity>();
-
-        ContacRepository.Setup();
+        ContacRepository.Initialize();
         items = ContacRepository.getListContact();
 
         return items;
