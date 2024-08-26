@@ -4,7 +4,7 @@ using Microsoft.Data.Sqlite;
 class ContacRepository
 {
     // Define the connection string to your SQLite database
-    private static string connectionString = "Data Source=BlastingIvowaba.db";
+    private static string connectionString = AppConfig.GetAppSetting("Database:ConnectionString");
     private static string tableName = "Contact";
 
     public static void Setup() {

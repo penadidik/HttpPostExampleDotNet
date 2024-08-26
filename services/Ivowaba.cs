@@ -5,8 +5,8 @@ class Ivowaba
 {
 
     private static readonly HttpClient client = new HttpClient();
-    private static String baseUrl = "https://waba.ivosights.com/api/v1/messages/send-template-message"; //base url for sent template
-    private static String Apikey = "1t65d576f2af2be5.64427625ToYdd03";
+    private static String baseUrl = AppConfig.GetAppSetting("BaseURL:Ivowaba"); //base url for sent template
+    private static String Apikey = AppConfig.GetAppSetting("ApiKeys:IvowabaCloudAPI2");
 
     public static async Task SendMessage(TemplateEntity payload) {
 

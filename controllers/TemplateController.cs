@@ -1,7 +1,7 @@
 class TemplateController
 {
 
-    public static String template_testing = "66949932db020a0e202048ae";
+    public static String template_testing = AppConfig.GetAppSetting("Template_Ivowaba:Template_CloudAPI2_Testing");
     public static List<TemplateEntity> SetTemplateTesting(List<ContactEntity> contacts) {
             var collectTemplates = new List<TemplateEntity>{};
             foreach (var item in contacts)

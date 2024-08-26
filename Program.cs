@@ -6,6 +6,9 @@ class Program
     static async Task Main(string[] args)
     {
 
+        // Initialize configuration
+        AppConfig.Initialize("appsettings.json");
+
         var collectContact = ContactController.GetListJson();
         var templates = TemplateController.SetTemplateTesting(collectContact);
 
@@ -26,7 +29,7 @@ class Program
             Console.WriteLine($"List {i}:");
             foreach (var template in list)
             {
-                Console.WriteLine($"  Id: {template.Id}, Name: {template.wa_id}, Capacity: {template.components}");
+                Console.WriteLine($"  Id: {template.Id}, Name: {template.wa_id}, Components: {template.components}");
                 await Ivowaba.SendMessage(template); // Process each chunk
                 await Task.Delay(500); // Simulate some work per chunk
                 await Task.Delay(intervalMilliseconds); // Wait for the specified interval before processing the next chunk
